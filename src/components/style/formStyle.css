@@ -1,0 +1,74 @@
+.father{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+label{
+    color: gray;
+}
+
+input{
+    border-color: rgb(8, 131, 231);
+}
+
+.editProfile{
+    display: flex;
+    align-items: start;
+    padding-left: 12%;
+    color: gray;
+    text-align: start;
+}
+
+.profileImage{
+    border-radius: 70%;
+    width: 25%;
+}
+
+.nameAndLastName{
+    display: flex;
+    padding-top: 5%;
+    width: 30%;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.emailEtc{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    text-align: start;
+    width: 24%;
+}
+
+.place{
+    width: 100%;
+}
+
+.contact{
+    padding-top: 6%;
+}
+
+.cityState{
+    padding-top: 2%;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.zipCode{
+    padding-top: 2%;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.password{
+    padding-top: 2%;
+    text-align: start;
+    width: 24%;
+}
